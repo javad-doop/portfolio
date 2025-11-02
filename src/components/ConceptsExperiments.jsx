@@ -60,7 +60,7 @@ export default function ConceptsExperiments() {
     >
       <div className="max-w-6xl mx-auto text-center relative">
         {/* Header */}
-        <h2 className="text-2xl font-semibold mb-2">Concepts</h2>
+        <h2 className="text-2xl font-semibold mb-2 bg-gradient-to-r from-[#60a5fa] to-[#e36414] bg-clip-text text-transparent">CONCEPTS</h2>
         <p className="text-gray-300 mb-12 max-w-2xl mx-auto">
           Personal explorations and design experiments focused on motion, form,
           and clarity.
