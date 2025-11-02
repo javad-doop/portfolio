@@ -20,7 +20,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-gray-300 font-medium text-base md:text-lg leading-relaxed tracking-wide">
-            a Product Designer who turns tangled workflows into calm, intuitive experiences — shaping complexity into clarity.
+            Product Designer who turns tangled workflows into calm, intuitive experiences — shaping complexity into clarity.
           </p>
 
           <div className="flex justify-center md:justify-start mt-8">
