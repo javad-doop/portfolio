@@ -17,9 +17,9 @@ import "@fontsource/poppins/600.css";
 
 const conceptImages = [
   { id: 1, src: mockupdesktop1, title: "Fluid Navigation" },
-  { id: 2, src: mockupdesktop2, title: "Modern UI System" },
-  { id: 3, src: mockupdesktop3, title: "Futuristic Dashboard" },
-  { id: 4, src: mockupdesktop4, title: "AI Workflow Assistant" },
+  { id: 2, src: mockupdesktop4, title: "Modern UI System" },
+  { id: 3, src: mockupdesktop2, title: "Futuristic Dashboard" },
+  { id: 4, src: mockupdesktop3, title: "AI Workflow Assistant" },
 ];
 
 export default function DideDetail() {
