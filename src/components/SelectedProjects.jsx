@@ -37,7 +37,7 @@
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">
+          <h2 className="text-4xl font-bold text-gray-900 mb-2">
             PROJECTS
           </h2>
           <p className="text-gray-500 mb-12 max-w-2xl mx-auto">
