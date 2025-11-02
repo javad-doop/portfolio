@@ -51,7 +51,7 @@ export default function App() {
             </section>
 
 
-            <section id="about">
+            <section id="about Me">
               <AboutMe />
             </section>
 
