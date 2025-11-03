@@ -62,3 +62,8 @@ export default function Hero() {
     </section>
   );
 }
+ 
+
+
+
+ریسپانسیو این رو درست کن چیزیش بهم نخوره ها
