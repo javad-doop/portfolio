@@ -3,8 +3,8 @@ import { Briefcase, GraduationCap } from "lucide-react";
 
 export default function ExperienceSection() {
   return (
-  <section className="bg-white text-[#0b1221] py-20 px-6 sm:px-10 md:px-20 flex justify-center">
-  <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24">
+  <section className="bg-white text-[#0b1221] py-20 px-6 md:px-20">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2">
     
     {/* Work Experience */}
     <motion.div
