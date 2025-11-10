@@ -30,7 +30,7 @@ export default function ExperienceSection() {
             </div>
 
             <div>
-              <h3 className="font-semibold text-lg">UI & UX Designer</h3>
+              <h3 className="font-semibold text-lg">UX & UI Designer</h3>
               <p className="text-gray-600 text-sm mb-2">
                 MAKEEN IDEAL MEDIA <span className="text-gray-400">•</span> Feb 2024 - June 2025
               </p>
