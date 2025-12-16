@@ -9,8 +9,13 @@ import {
 import { ArrowLeft } from "lucide-react";
 import mockup1 from "../assets/mockups/mockup1.png";
 import mockup2 from "../assets/mockups/mockup2.png";
+<<<<<<< HEAD
 import mockup3 from "../assets/mockups/mockup3.png";
 import mockup4 from "../assets/mockups/mockup4.png";
+=======
+import mockup3 from "../assets/mockups/mockup4.png";
+import mockup4 from "../assets/mockups/mockup3.png";
+>>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
 import "@fontsource/poppins/400.css";
 import "@fontsource/poppins/600.css";
 
@@ -61,7 +66,11 @@ export default function SweetcraftDetail() {
 
   return (
     <motion.section
+<<<<<<< HEAD
       className="min-h-screen bg-linear-to-b from-[#050b1f] via-[#0a1638] to-[#101b4a] 
+=======
+      className="min-h-screen bg-gradient-to-b from-[#050b1f] via-[#0a1638] to-[#101b4a] 
+>>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
                  text-white flex flex-col items-center px-4 sm:px-6 md:px-10 py-14 md:py-24 
                  font-[Poppins] overflow-hidden"
       initial={{ opacity: 0, y: 25 }}
@@ -90,7 +99,11 @@ export default function SweetcraftDetail() {
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="space-y-6 sm:space-y-8 flex flex-col justify-center h-full text-center md:text-left"
         >
+<<<<<<< HEAD
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-linear-to-r from-[#e36414] to-[#ffb077] bg-clip-text text-transparent leading-tight">
+=======
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-[#e36414] to-[#ffb077] bg-clip-text text-transparent leading-tight">
+>>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
             Sweetcraft
           </h1>
 
@@ -103,7 +116,11 @@ export default function SweetcraftDetail() {
                 transition={{ duration: 0.25, delay: index * 0.1 }}
                 className="flex items-start gap-4 justify-center md:justify-start"
               >
+<<<<<<< HEAD
                 <div className="relative mt-2 shrink-0">
+=======
+                <div className="relative mt-2 flex-shrink-0">
+>>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
                   <div className="w-3.5 h-3.5 rounded-full bg-[#e36414]/40 shadow-[0_0_10px_rgba(227,100,20,0.4)]" />
                   <div className="absolute inset-0 blur-md bg-[#e36414]/20 rounded-full" />
                 </div>
@@ -149,7 +166,11 @@ export default function SweetcraftDetail() {
         >
           {/* Glow aura */}
           <motion.div
+<<<<<<< HEAD
             className="absolute -inset-10 rounded-full bg-linear-to-tr from-[#e36414]/25 via-blue-400/15 to-transparent blur-3xl opacity-40"
+=======
+            className="absolute -inset-10 rounded-full bg-gradient-to-tr from-[#e36414]/25 via-blue-400/15 to-transparent blur-3xl opacity-40"
+>>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
             animate={{ opacity: [0.3, 0.6, 0.3] }}
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
           />

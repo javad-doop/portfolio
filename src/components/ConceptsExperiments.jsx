@@ -19,7 +19,11 @@ import "swiper/css/pagination";
 const concepts = [
   {
     title: "SweetCraft",
+<<<<<<< HEAD
     description: "Designed a visually immersive website for cake recipes, combining delightful UI elements with",
+=======
+    description: "Designed a visually immersive website for cake recipes, combining delightful UI elements",
+>>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
     image: SweetCraft,
     urllink: "/ConceptDetail",
   },
@@ -100,13 +104,21 @@ export default function ConceptsExperiments() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
+<<<<<<< HEAD
               className="bg-linear-to-b from-[#111C45]/90 to-[#0A1433]/90 rounded-2xl overflow-hidden 
+=======
+              className="bg-gradient-to-b from-[#111C45]/90 to-[#0A1433]/90 rounded-2xl overflow-hidden 
+>>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
                          shadow-lg hover:shadow-2xl transition-all duration-500 transform 
                          hover:-translate-y-1 cursor-pointer backdrop-blur-md border border-white/10"
             >
               <Link to={item.urllink}>
                 {/* Image Wrapper */}
+<<<<<<< HEAD
                 <div className="bg-white relative w-full  flex items-center justify-center aspect-16/10 overflow-hidden">
+=======
+                <div className="bg-white relative w-full bg-[#0C1845] flex items-center justify-center aspect-[16/10] overflow-hidden">
+>>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
                   <img
                     src={item.image}
                     alt={item.title}
