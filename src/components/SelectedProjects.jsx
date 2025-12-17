@@ -29,11 +29,9 @@ export default function SelectedProjects() {
   ];
 
   return (
-<<<<<<< HEAD
+
     <section className="bg-[#0A1433] bg mx-auto py-20 px-5 sm:px-8 md:px-12 text-center">
-=======
-    <section className="max-w-6xl mx-auto py-20 px-5 sm:px-8 md:px-12 text-center">
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -41,53 +39,42 @@ export default function SelectedProjects() {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-<<<<<<< HEAD
+
         <h2 className="text-3xl sm:text-4xl font-bold bg-linear-to-r from-[#60a5fa] to-[#e36414] bg-clip-text text-transparent  mb-3">
           CASE STUDIES
         </h2>
         <p className="text-gray-400 mb-12 max-w-2xl mx-auto text-sm sm:text-base">
-=======
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
-          PROJECTS
-        </h2>
-        <p className="text-gray-500 mb-12 max-w-2xl mx-auto text-sm sm:text-base">
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
           A selection of my latest product and interface design works.
         </p>
       </motion.div>
 
       {/* Projects Grid */}
-<<<<<<< HEAD
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center  sm:gap-6">
-=======
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10">
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
+      <div className="grid grid-cols-1  sm:grid-cols-2 gap-8 sm:gap-10">
+
         {projects.map((project, index) => (
           <motion.div
             key={index}
             onClick={() => setSelectedProject(project)}
-<<<<<<< HEAD
+
             className="group relative bg-gray-50 rounded-2xl
-             overflow-hidden shadow-sm hover:shadow-xl size-[75%]
-             hover:-translate-y-1 hover:scale-[1.02] transition-all
-              duration-500 cursor-pointer left-[10%]"
-=======
-            className="group relative bg-gray-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-500 cursor-pointer"
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+             overflow-hidden shadow-sm hover:shadow-xl 
+             hover:-translate-y-1 hover:scale-[1.02] transition-all 
+              duration-500 cursor-pointer max-w-[600px] left-[7%]  "
+
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
             viewport={{ once: true }}
           >
-<<<<<<< HEAD
-            <div className="w-full aspect-16/10 bg-gray-100 overflow-hidden">
-=======
-            <div className="w-full aspect-[16/10] bg-gray-100 overflow-hidden">
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
+            <div className="w-full h-74 bg-gray-100 overflow-hidden">
+
               <img
                 src={project.image}
                 alt={project.title}
-                className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700"
+                className="object-cover w-full h-full  group-hover:scale-105 transition-transform duration-700"
               />
             </div>
 
@@ -106,7 +93,7 @@ export default function SelectedProjects() {
             {/* Hover Overlay */}
             <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover:bg-black/40 transition-all duration-500">
               <span className="opacity-0 group-hover:opacity-100 text-white text-sm sm:text-base font-medium tracking-wide transition-opacity duration-500">
-                View Project →
+                View CaseStudy →
               </span>
             </div>
           </motion.div>
@@ -143,11 +130,8 @@ export default function SelectedProjects() {
         <div className="w-14 h-1.5 bg-gray-300 rounded-full mx-auto my-4" />
 
         {/* Fixed Header */}
-<<<<<<< HEAD
         <div className="shrink-0 sticky top-0 w-full bg-white z-10 border-b border-gray-200">
-=======
-        <div className="flex-shrink-0 sticky top-0 w-full bg-white z-10 border-b border-gray-200">
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
           <div className="flex justify-between items-center py-4 px-5 sm:px-8">
             <div>
               <Dialog.Title className="text-lg sm:text-xl font-semibold">

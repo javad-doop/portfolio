@@ -19,11 +19,9 @@ import "swiper/css/pagination";
 const concepts = [
   {
     title: "SweetCraft",
-<<<<<<< HEAD
+
     description: "Designed a visually immersive website for cake recipes, combining delightful UI elements with",
-=======
-    description: "Designed a visually immersive website for cake recipes, combining delightful UI elements",
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
     image: SweetCraft,
     urllink: "/ConceptDetail",
   },
@@ -64,7 +62,7 @@ export default function ConceptsExperiments() {
 >
   <div className="max-w-6xl mx-auto text-center relative">
     {/* Header */}
-    <h2 className="text-3xl sm:text-4xl font-bold mb-3 sm:mb-4 bg-gradient-to-r from-[#60a5fa] to-[#e36414] bg-clip-text text-transparent">
+    <h2 className="text-3xl sm:text-4xl font-bold mb-3 sm:mb-4 bg-linear-to-r from-[#60a5fa] to-[#e36414] bg-clip-text text-transparent">
       CONCEPTS
     </h2>
     <p className="text-gray-300 mb-10 sm:mb-12 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
@@ -104,21 +102,17 @@ export default function ConceptsExperiments() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-<<<<<<< HEAD
+
               className="bg-linear-to-b from-[#111C45]/90 to-[#0A1433]/90 rounded-2xl overflow-hidden 
-=======
-              className="bg-gradient-to-b from-[#111C45]/90 to-[#0A1433]/90 rounded-2xl overflow-hidden 
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
                          shadow-lg hover:shadow-2xl transition-all duration-500 transform 
                          hover:-translate-y-1 cursor-pointer backdrop-blur-md border border-white/10"
             >
               <Link to={item.urllink}>
                 {/* Image Wrapper */}
-<<<<<<< HEAD
+
                 <div className="bg-white relative w-full  flex items-center justify-center aspect-16/10 overflow-hidden">
-=======
-                <div className="bg-white relative w-full bg-[#0C1845] flex items-center justify-center aspect-[16/10] overflow-hidden">
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
                   <img
                     src={item.image}
                     alt={item.title}

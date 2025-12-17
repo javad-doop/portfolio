@@ -16,10 +16,8 @@ export default function DriveoDetail() {
   const rotateY = useTransform(x, [-100, 100], [-8, 8]);
 
   const handleMouseMove = (e) => {
-<<<<<<< HEAD
-=======
-    if (window.innerWidth < 768) return; // ❌ غیرفعال در موبایل
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
+
     const rect = e.currentTarget.getBoundingClientRect();
     const dx = e.clientX - rect.left - rect.width / 2;
     const dy = e.clientY - rect.top - rect.height / 2;
@@ -34,28 +32,20 @@ export default function DriveoDetail() {
 
   const details = [
     "A modern car rental app with real-time availability and a fast booking process.",
-<<<<<<< HEAD
+
      "Designed for ease of use, it offers a simple, efficient, and stress-free rental experience across all devices."
-=======
-    "Designed for ease of use, it offers a simple, efficient, and stress-free rental experience across all devices.",
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
   ];
 
   return (
     <motion.section
-<<<<<<< HEAD
+
       className="min-h-screen bg-linear-to-b from-[#050b1f] via-[#0a1638] to-[#101b4a]
                  text-white flex flex-col items-center justify-center px-6 md:px-12 py-16 md:py-24 font-[Poppins]"
       initial={{ opacity: 0, y: 25 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
-=======
-      className="min-h-screen bg-gradient-to-b from-[#050b1f] via-[#0a1638] to-[#101b4a]
-                 text-white flex flex-col items-center px-6 md:px-12 py-16 md:py-24 font-[Poppins] overflow-y-auto"
-      initial={{ opacity: 0, y: 25 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
     >
       {/* 🔙 Back Button */}
       <div className="w-full max-w-6xl flex justify-start mb-10">
@@ -72,10 +62,9 @@ export default function DriveoDetail() {
 
       {/* ⚡ Content Grid */}
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
-<<<<<<< HEAD
+
         
-=======
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
         {/* 🧠 Text Section */}
         <motion.div
           initial={{ opacity: 0, x: -25 }}
@@ -83,11 +72,9 @@ export default function DriveoDetail() {
           transition={{ duration: 0.6 }}
           className="space-y-8 text-center md:text-left"
         >
-<<<<<<< HEAD
+
           <h1 className="text-5xl md:text-6xl font-bold bg-linear-to-r from-[#e36414] to-[#ffb077] 
-=======
-          <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-[#e36414] to-[#ffb077] 
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
                          bg-clip-text text-transparent leading-tight tracking-tight">
             Driveo
           </h1>
@@ -124,11 +111,9 @@ export default function DriveoDetail() {
         >
           {/* Glow Aura */}
           <motion.div
-<<<<<<< HEAD
+
             className="absolute -inset-10 bg-linear-to-tr from-[#e36414]/25 via-blue-400/15 to-transparent 
-=======
-            className="absolute -inset-10 bg-gradient-to-tr from-[#e36414]/25 via-blue-400/15 to-transparent 
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
                        blur-3xl opacity-40 rounded-full"
             animate={{ opacity: [0.4, 0.7, 0.4] }}
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
@@ -138,24 +123,19 @@ export default function DriveoDetail() {
           <motion.img
             src={mockupmobile1}
             alt="Driveo app screen 1"
-<<<<<<< HEAD
+
             className="w-[130px] md:w-[180px] rounded-4xl border border-white/10 object-contain 
                        shadow-[0_0_50px_rgba(227,100,20,0.25)] translate-y-8 -rotate-3 transition-transform duration-300 hover:scale-105"
-=======
-            className="w-[120px] md:w-[160px] rounded-3xl border border-white/10 object-contain 
-                       shadow-[0_0_40px_rgba(227,100,20,0.25)] translate-y-6 -rotate-3 transition-transform duration-300 hover:scale-105"
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
           />
 
           {/* Center Phone */}
           <motion.img
             src={mockupmobile2}
             alt="Driveo app screen 2"
-<<<<<<< HEAD
+
             className="w-[150px] md:w-[220px] rounded-4xl border border-white/10 object-contain 
-=======
-            className="w-[140px] md:w-[210px] rounded-3xl border border-white/10 object-contain 
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
                        z-10 scale-110 hover:scale-115 transition-transform duration-300 
                        shadow-[0_0_80px_rgba(59,130,246,0.35)]"
           />
@@ -164,20 +144,15 @@ export default function DriveoDetail() {
           <motion.img
             src={mockupmobile3}
             alt="Driveo app screen 3"
-<<<<<<< HEAD
+
             className="w-[130px] md:w-[180px] rounded-4xl border border-white/10 object-contain 
                        shadow-[0_0_50px_rgba(227,100,20,0.25)] translate-y-8 rotate-3 transition-transform duration-300 hover:scale-105"
-=======
-            className="w-[120px] md:w-[160px] rounded-3xl border border-white/10 object-contain 
-                       shadow-[0_0_40px_rgba(227,100,20,0.25)] translate-y-6 rotate-3 transition-transform duration-300 hover:scale-105"
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
           />
         </motion.div>
       </div>
     </motion.section>
   );
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+

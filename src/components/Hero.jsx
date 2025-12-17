@@ -6,7 +6,7 @@ import OrangeShape from "../assets/orange-shape.svg";
 export default function Hero() {
   return (
     <section id="home" className="bg-[#0A1433] text-white">
-      <div className="max-w-screen-xl mx-auto px-6 sm:px-10 md:px-16 lg:px-24 flex flex-col md:flex-row items-center justify-between min-h-[85vh] py-16 md:py-20 gap-12">
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-24 flex flex-col md:flex-row items-center justify-between min-h-[85vh] py-16 md:py-20 gap-12">
         
         {/* LEFT TEXT */}
         <motion.div
@@ -44,7 +44,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
-          className="relative flex justify-center items-center w-[220px] sm:w-[260px] md:w-[320px] lg:w-[340px] h-[220px] sm:h-[260px] md:h-[320px] lg:h-[340px]"
+          className="relative flex justify-center items-center w-[220px] sm:w-[260px] md:w-[320px] lg:w-[340px] h-[220px] sm:h-[260px] md:h-80 lg:h-[340px]"
         >
           <div className="relative w-full h-full">
             <img

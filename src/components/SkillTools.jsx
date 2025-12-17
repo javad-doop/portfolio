@@ -51,11 +51,9 @@ export default function SkillsTools() {
       <div className="max-w-6xl mx-auto text-center space-y-24">
         {/* Header */}
         <div>
-<<<<<<< HEAD
+
           <h2 className="text-4xl font-bold mb-4 bg-linear-to-r from-[#60a5fa] to-[#e36414] bg-clip-text text-transparent">
-=======
-          <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-[#60a5fa] to-[#e36414] bg-clip-text text-transparent">
->>>>>>> a20db82979ee095e309127bc1af38bf69ad63ea0
+
             Skills & Tools
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
@@ -158,63 +156,3 @@ export default function SkillsTools() {
 
 
 
-
-
-// import {
-//   Search,
-//   PenTool,
-//   Layout,
-//   UserCheck,
-//   Palette,
-//   Lightbulb,
-//   FileText,
-//   Scissors,
-// } from "lucide-react";
-// import { motion } from "framer-motion"; // ✅ import motion
-
-// const skills = [
-//   { name: "UX Research", icon: <Search className="w-5 h-5" /> },
-//   { name: "Wireframing", icon: <PenTool className="w-5 h-5" /> },
-//   { name: "Prototyping", icon: <Layout className="w-5 h-5" /> },
-//   { name: "Usability Testing", icon: <UserCheck className="w-5 h-5" /> },
-//   { name: "UI Systems", icon: <Palette className="w-5 h-5" /> },
-//   { name: "Product Thinking", icon: <Lightbulb className="w-5 h-5" /> },
-//   { name: "Notion", icon: <FileText className="w-5 h-5" /> },
-//   { name: "Photoshop", icon: <Scissors className="w-5 h-5" /> },
-// ];
-
-// export default function SkillsTools() {
-//   return (
-//     <section className="bg-[#0A1433] text-white py-20 px-4">
-//       <div className="max-w-6xl mx-auto text-center">
-//         {/* Header */}
-//         <h2 className="text-2xl font-semibold mb-2">Skills & Tools</h2>
-//         <p className="text-gray-400 mb-12 max-w-2xl mx-auto">
-//           Designing means learning — my tools evolve with my thinking.
-//         </p>
-
-//         {/* Skills Grid */}
-//         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center">
-//           {skills.map((skill, index) => (
-//             <motion.div
-//               key={index}
-//               className="bg-[#151E3A]/60 rounded-2xl p-6 flex flex-col items-center justify-center text-center hover:bg-[#1E2952] transition-all duration-300 shadow-sm hover:shadow-md"
-//               initial={{ opacity: 0, y: 20 }}
-//               whileInView={{ opacity: 1, y: 0 }}
-//               transition={{
-//                 duration: 0.5,
-//                 delay: index * 0.2, // ⏱ each card delayed by 0.2s
-//               }}
-//               viewport={{ once: true }}
-//             >
-//               <div className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 text-white mb-3">
-//                 {skill.icon}
-//               </div>
-//               <span className="text-sm font-medium">{skill.name}</span>
-//             </motion.div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }

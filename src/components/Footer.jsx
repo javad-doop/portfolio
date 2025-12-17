@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaDribbble, FaEnvelope } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer
-      className="bg-gradient-to-br from-[#0b1221] via-[#0c1733] to-[#0e1f4b] 
+      className="bg-linear-to-br from-[#0b1221] via-[#0c1733] to-[#0e1f4b] 
                        text-gray-300 py-24 text-center relative overflow-hidden"
     >
       {/* ✨ Glow Background */}
